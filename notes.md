@@ -119,3 +119,15 @@ https://tabconf.com/scavengerhunt
 ```
 
 Yep, the first obvious thing worked once again. Let's see if that link is still alive.
+
+Hmm, I get a GitHub Pages 404. Probably that wouldn't have been the case originally, and I can find it on archive.org.
+
+Yep! Luckily, there is exactly one snapshot from 17 July 2021. Hmm, but that also gives a 404, this time on a blue and yellow page copyright 2021 TABConf, LLC.
+
+Maybe I can look through github history.
+BTW, when googling, I found https://www.iheart.com/podcast/1333-atl-bitlab-podcast-242786208/episode/michael-tidwell-bitcoin-secrets-revealed--262753868/ and https://atlbitlab.com/podcast/michael-tidwell-bitcoin-secrets-revealed-taptree-of-horror and https://tabctb.com/six.
+
+By the way, taking a look at the UTXOs, in addition to the one with the data, there is the other with the sats, and it seems to be a SegWit v0 P2WPKH with hash `da7e527ab30f3c1e1e5fe3882a28c21bf1045315`. So to claim the prize I'd have to prove with a witness.
+https://learnmeabitcoin.com/technical/script/p2wpkh/
+https://learnmeabitcoin.com/technical/transaction/witness/
+This is a nice reference site, I'm probably going to read the whole thing.
