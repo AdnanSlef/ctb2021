@@ -9,3 +9,6 @@ inner_str = ''.join(x for y in inner_rim for x in y)
 reference = '000000000000000000067119c310ecee2c2f4b79b96e2a616ff93bf31236e1d6'
 print(len(inner_str),inner_str)
 print(len(reference),reference)
+
+op_return = uh('68747470733a2f2f746162636f6e662e636f6d2f73636176656e67657268756e74')
+print(op_return)

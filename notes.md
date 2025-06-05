@@ -110,3 +110,12 @@ Download Transaction Outputs:
   }
 ]
 ```
+
+Okay, well there's an `OP_RETURN` starting with `687474`, which looks like plausible ASCII, so the first thing I'll try is decoding that.
+
+```
+68747470733a2f2f746162636f6e662e636f6d2f73636176656e67657268756e74
+https://tabconf.com/scavengerhunt
+```
+
+Yep, the first obvious thing worked once again. Let's see if that link is still alive.
